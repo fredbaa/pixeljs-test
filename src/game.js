@@ -20,7 +20,8 @@ document.onreadystatechange = function () {
       }
     });
 
-    game.run(function (elapsedTime, dt) {
+    console.log("game loaded")
+    game.loadAndRun(function (elapsedTime, dt) {
     });
   }
 }
